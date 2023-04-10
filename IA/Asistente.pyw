@@ -5,7 +5,7 @@ import tkinter as tk
 import datetime
 from PIL import Image, ImageTk
 
-openai.api_key = "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"
+openai.api_key = "ingresa tu key aqui"
 
 engine = pyttsx3.init()
 
