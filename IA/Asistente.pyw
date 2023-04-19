@@ -37,7 +37,7 @@ def pregunta():
     mic = sr.Microphone()
     with mic as source:
         recognizer.adjust_for_ambient_noise(source)
-        audio = recognizer.listen(source, timeout=15)
+        audio = recognizer.listen(source, timeout=20)
 
     try:
         query = recognizer.recognize_google(audio, language='es-es')
